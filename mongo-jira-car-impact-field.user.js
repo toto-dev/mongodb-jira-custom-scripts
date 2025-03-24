@@ -46,7 +46,7 @@ function getImpactObject(ticketId) {
     mehtod : 'GET',
     responseType : 'json',
     onload : function(response) {
-      addImpactField(response.response['fields']["customfield_23577"]);
+      addImpactField(response.response['fields'][impactFieldName]);
     },
     onerror : function(error) { console.error('Error fetching JSON:', error); }
   });
