@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name        New script mongodb.org
+// @name        Add CAR Impact field to jira
 // @namespace   Violentmonkey Scripts
 // @match       https://jira.mongodb.org/browse/SERVER-*
 // @grant       none
 // @version     1.0
 // @author      -
 // @description 5/29/2024, 11:50:56 PM
+// @description Make the "CAR Impact" field visible in jira ticket
 // @grant GM_xmlhttpRequest
 // ==/UserScript==
 
